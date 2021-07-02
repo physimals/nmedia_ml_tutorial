@@ -1,0 +1,26 @@
+NMedIA Machine Learning tutorial
+--------------------------------
+
+This is a demo to illustrate the general pipeline of machine learning modelling, using
+a real-world binary classification problem (breast cancer prediction) as an example. 
+
+Dataset: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+
+The Breast Cancer dataset (WDBC) is available in machine learning repository maintained
+by the University of California, Irvine. The dataset contains 569 samples of malignant
+and benign tumor cells. The first two columns in the dataset store the unique ID numbers
+of the samples and the corresponding diagnosis (M=malignant, B=benign), respectively.
+The columns 3-32 contain 30 real-value features that have been computed from digitized
+images of the cell nuclei, which can be used to build a model to predict whether a tumor
+is benign or malignant.
+
+References
+----------
+
+W.N. Street, W.H. Wolberg and O.L. Mangasarian. Nuclear feature extraction for breast 
+tumor diagnosis. IS&T/SPIE 1993 International Symposium on Electronic Imaging: Science
+and Technology, volume 1905, pages 861-870, San Jose, CA, 1993.
+
+O.L. Mangasarian, W.N. Street and W.H. Wolberg. Breast cancer diagnosis and prognosis
+via linear programming. Operations Research, 43(4), pages 570-577, July-August 1995.
+
